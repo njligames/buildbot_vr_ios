@@ -49,3 +49,4 @@ RelWithDebInfo-iphoneos/*.app*
 MinSizeRel-iphoneos/*.app*
 MinSizeRel-iphonesimulator/*.app*
 RelWithDebInfo-iphonesimulator/*.app*
+*.dmg
