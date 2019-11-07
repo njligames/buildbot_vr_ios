@@ -1,11 +1,12 @@
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/install.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/package.dir
-/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/uninstall.dir
-/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-exe.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-static.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLICFramework.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/clang-format.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-documentation.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/uninstall.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-exe.dir
+/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-lua-swig-glm-static.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/cppcheck.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC.dir
 /Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/CMakeFiles/NJLIC-lua-swig-bullet3-static.dir
