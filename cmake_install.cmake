@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/RelWithDebInfo")
+  set(CMAKE_INSTALL_PREFIX "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -150,34 +150,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/Debug${EFFECTIVE_PLATFORM_NAME}/libNJLIC-lua-swig-glm-staticd.a")
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-staticd.a" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-staticd.a")
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-staticd.a")
-    endif()
-  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/Release${EFFECTIVE_PLATFORM_NAME}/libNJLIC-lua-swig-glm-static.a")
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-    endif()
-  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/MinSizeRel${EFFECTIVE_PLATFORM_NAME}/libNJLIC-lua-swig-glm-static.a")
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-    endif()
-  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}/libNJLIC-lua-swig-glm-static.a")
-    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a" AND
-       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-glm-static.a")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/Debug${EFFECTIVE_PLATFORM_NAME}/libNJLIC-lua-swig-bullet3-staticd.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-bullet3-staticd.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libNJLIC-lua-swig-bullet3-staticd.a")
@@ -291,14 +263,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/RelWithDebInfo/share/aclocal/njlic.m4")
+   "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/Release/share/aclocal/njlic.m4")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/RelWithDebInfo/share/aclocal" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/njlic.m4")
+file(INSTALL DESTINATION "/Users/jamesfolk/Work/test_project_repo/buildbot_vr_ios/install/Release/share/aclocal" TYPE FILE FILES "/Users/jamesfolk/Work/test_project_repo/njlic.m4")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
